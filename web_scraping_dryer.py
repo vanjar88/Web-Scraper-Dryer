@@ -21,9 +21,10 @@ lowest_price = low_price.text  # type: ignore
 print(
     f"""
       *******************************************************
-      Trenutna cijena proizvoda {product_name}         
-      iznosi {product_price}, a najniža cijena         
-      u posljednjih 30 dana iznosi {lowest_price}.     
+      Current price of product {product_name}         
+      is {product_price},and the lowest price
+      in the last 30 days was {lowest_price}.     
       ******************************************************* 
 """
 )
+
